@@ -8,4 +8,4 @@ RUN cargo install --path .
 
 EXPOSE 3000
 
-CMD ["cargo", "run"]
+CMD ["/usr/local/cargo/bin/lab14"]
